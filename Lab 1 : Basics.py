@@ -17,7 +17,7 @@ print(a/b)
 
 def hourtominutes():
     hours = int(input("Hours: "))
-    print("Minutes: ",hours*60)
+    print("minutes: ",hours*60)
 hourtominutes()
 
 def minutestohours():
@@ -59,37 +59,37 @@ def bytesconvert():
 bytesconvert()
 
 def celsiusToFahrenheit():
-    C = int(input("Celsius:"))
+    C=int(input("Celsius:"))
     print("Fahrenheit:",(9/5*C)+32)
 celsiusToFahrenheit()
 
 def fahrenheitToCelsius():
-    F = int(input("Fahrenheit:"))
+    F=int(input("Fahrenheit:"))
     print("Celsius:", 5/9*(F-32))
 fahrenheitToCelsius()
 
 def Interest():
-    P = int(input("Principal:"))
-    R = int(input("Rate:"))
-    T = int(input("Time:"))
+    P=int(input("Principal:"))
+    R=int(input("Rate:"))
+    T=int(input("Time:"))
     print("Interest: ",(P*R*T)/100)
 Interest()
 
 def squareAreaPeri():
-    L = int(input("Side length:"))
+    L=int(input("Side length:"))
     print("Area:", L*L)
     print("Perimeter:", 4*L)
 squareAreaPeri()
 
 def rectangleAreaPeri():
-    L = int(input("Length: "))
-    B = int(input("Breadth: "))
+    L=int(input("Length: "))
+    B=int(input("Breadth: "))
     print("Area",L*B)
     print("Perimeter:",2*(L+B))
 rectangleAreaPeri()
 
 def circleArea():
-    r = int(input("Radius: "))
+    r=int(input("Radius: "))
     print("Area: ",(22/7)*r*r)
 circleArea()
 
@@ -100,7 +100,7 @@ def triangleArea():
 triangleArea()
 
 def calculateSalary():
-    gross = int(input("Gross Salary: "))
+    gross=int(input("Gross Salary: "))
     print("Net Salary:",gross+0.1*gross-0.03*gross)
 calculateSalary()
 
@@ -111,7 +111,7 @@ NetSales()
 
 def averageofsubjects():
     sub1 = int(input("Subject 1 marks: "))
-    sub2 = int(input("Subject 2 marks: "))
+    sub2=int(input("Subject 2 marks: "))
     sub3 = int(input("Subject 3 marks: "))
     total = sub1 + sub2 + sub3
     print("Total: ", total)
@@ -119,7 +119,7 @@ def averageofsubjects():
 averageofsubjects()
 
 def swapValues():
-    a = input("Enter first value: ")
+    a =input("Enter first value: ")
     b = input("Enter second value: ")
     temp = a
     a = b
