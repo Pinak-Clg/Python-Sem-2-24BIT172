@@ -3,7 +3,7 @@
 
 def list_to_set():
     word = ["apple","google","microsoft","atlassian","meta","google"]
-    print("original list:",word)
+    print("list:",word)
 
     wordset = set()
     for i in word:
