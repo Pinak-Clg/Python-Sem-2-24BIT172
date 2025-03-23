@@ -56,7 +56,7 @@ def dep_minmax_salary():
 
     print("department 1: minimum salary =",min_dep1,"maximum salary=",max_dep1)
     print("department 2: minimum salary =",min_dep2,"maximum salary=",max_dep2)
-dep_minmax_salary()
+# dep_minmax_salary()
 
 
 
