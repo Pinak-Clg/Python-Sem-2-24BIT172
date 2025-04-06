@@ -1,4 +1,3 @@
-
 # 1. Write a program to create three dictionaries and concatenate them to create fourth dictionary.
 
 def concatenate_dictionaries():
@@ -16,7 +15,13 @@ def concatenate_dictionaries():
     ans.update(dict3)
 
     print("concatinated dict:",ans)
-# concatenate_dictionaries()
+concatenate_dictionaries()
+
+# output:
+# dictionary 1:{'a': 121, 'b': 24}
+# dictionary 2:{'c': 368, 'd': 440}
+# dictionary 3:{'e': 505, 'f': 68}
+# concatinated dict:{'a': 121, 'b': 24, 'c': 368, 'd': 440, 'e': 505, 'f': 68}
 
 
 # 2. Write a program to check whether a dictionary is empty or not.
@@ -28,7 +33,11 @@ def is_empty():
         print("dictionary is empty.")
     else:
         print("dictionary is not empty.")
-# is_empty()
+is_empty()
+
+# output:
+# dictionary is empty.
+
 
 #3. Create a dictionary with dept no, employee roll no. and salary. Find out department wise min and maximum of salary.
 
@@ -56,8 +65,12 @@ def dep_minmax_salary():
 
     print("department 1: minimum salary =",min_dep1,"maximum salary=",max_dep1)
     print("department 2: minimum salary =",min_dep2,"maximum salary=",max_dep2)
-# dep_minmax_salary()
+dep_minmax_salary()
 
+# output:
+# {1: [10000000, 5000000, 2000000], 2: [12000000, 1000000, 16000000]}
+# department 1: minimum salary = 2000000 maximum salary= 10000000
+# department 2: minimum salary = 1000000 maximum salary= 16000000
 
 
 #4. Write a program that reads a string from the keyboard and creates dictionary containing frequency of each character occurring in the string.
@@ -75,6 +88,10 @@ def character_freq():
     print("character frequency Dictionary:",freq)
 # character_freq()
 
+# output:
+# Enter a string:hello
+# character frequency Dictionary:{'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
 
 #5. Create two dictionaries – one containing grocery items and their prices and another containing grocery items and quantity purchased. By using the values from these two dictionaries compute the total bill.
 
@@ -88,6 +105,7 @@ def bill():
             total += prices[i]*q
 
     print("Total Grocery Bill:",total)
-# bill()
+bill()
 
-
+# output:
+# Total Grocery Bill:550
