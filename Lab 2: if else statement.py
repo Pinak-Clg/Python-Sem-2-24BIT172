@@ -266,11 +266,11 @@ def result():
 result()
 
 # Output:
-# Subject1 marks: 72
-# Subject2 marks: 65
-# Subject3 marks: 80
-# Total: 217
-# Average: 72.33333333333333
-# Subject 1 grade: A+
-# Subject 2 grade: A
-# Subject 3 grade: O
+# Subject1 marks:99
+# Subject2 marks:100
+# Subject3 marks:99
+# Total:298
+# Average:99.33
+# Subject 1 grade:O
+# Subject 2 grade:O
+# Subject 3 grade:O
