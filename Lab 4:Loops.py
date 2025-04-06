@@ -13,6 +13,62 @@ def printalphabets():
         
 # printalphabets()
 
+# Output:
+# lowercase:
+# a
+# b
+# c
+# d
+# e
+# f
+# g
+# h
+# i
+# j
+# k
+# l
+# m
+# n
+# o
+# p
+# q
+# r
+# s
+# t
+# u
+# v
+# w
+# x
+# y
+# z
+# uppercase:
+# A
+# B
+# C
+# D
+# E
+# F
+# G
+# H
+# I
+# J
+# K
+# L
+# M
+# N
+# O
+# P
+# Q
+# R
+# S
+# T
+# U
+# V
+# W
+# X
+# Y
+# Z
+
 #2.Print a multiplication table of a given number. 
 
 def table():
@@ -23,6 +79,18 @@ def table():
         print(n,"x",i,"=",i*n)
 # table()
 
+# Sample Output:
+# Enter a number:5
+# 5 x 1 = 5
+# 5 x 2 = 10
+# 5 x 3 = 15
+# 5 x 4 = 20
+# 5 x 5 = 25
+# 5 x 6 = 30
+# 5 x 7 = 35
+# 5 x 8 = 40
+# 5 x 9 = 45
+# 5 x 10 = 50
 
 #3.Count no. of alphabets and no. of digits in any given string.
 
@@ -39,7 +107,9 @@ def noAlphabet_noDigits():
 
 # noAlphabet_noDigits()
 
-
+# Output:
+# Enter a string:abc123
+# number of alphabet is 3 and number of digits is 3
 
 #4.Check whether a given number is prime, is perfect, is Armstrong, is palindrome, is automorphic.
 
@@ -107,7 +177,12 @@ def numberproperties():
 
 # numberproperties()
 
-# 5.Generate all Pythagorean Triplets with side length <= 30.
+# Sample Output:
+# Enter a number:28
+# 28 is not prime number
+# 28 is a perfect number
+# 28 is not armstrong number
+# 28 is not a palindrome number
 
 # 5. Generate all Pythagorean Triplets with side length <= 30.
 
@@ -121,6 +196,20 @@ def pythagoreanTriplets():
                     print([a,b,c])
 
 # pythagoreanTriplets()
+
+# Sample Output:
+# Pythagorean Triplets (a,b,c):
+# [3, 4, 5]
+# [5, 12, 13]
+# [6, 8, 10]
+# [7, 24, 25]
+# [8, 15, 17]
+# [9, 12, 15]
+# [10, 24, 26]
+# [12, 16, 20]
+# [15, 20, 25]
+# [18, 24, 30]
+# [20, 21, 29]
 
 # 6. Print 24 hours of the day with suitable suffixes like AM, PM, Noon, and Midnight.
 
@@ -137,6 +226,32 @@ def hours24():
 
 # hours24()
 
+# Sample Output:
+# 12 Midnight
+# 1 AM
+# 2 AM
+# 3 AM
+# 4 AM
+# 5 AM
+# 6 AM
+# 7 AM
+# 8 AM
+# 9 AM
+# 10 AM
+# 11 AM
+# 12 Noon
+# 1 PM
+# 2 PM
+# 3 PM
+# 4 PM
+# 5 PM
+# 6 PM
+# 7 PM
+# 8 PM
+# 9 PM
+# 10 PM
+# 11 PM
+
 # 7.Print factorial of a given number.
 
 def fact(n):
@@ -145,6 +260,9 @@ def fact(n):
     return n*fact(n-1)
 
 # print(fact(5))
+
+# Sample Output:
+# 120
 
 # 8.Print nCr and nPr.
 
@@ -158,6 +276,9 @@ def nCr(n,r):
 # print(nPr(10,7))
 # print(nCr(10,4))
 
+# Sample Output:
+# 604800.0
+# 210.0
 
 # 9.Print N natural nos. in reverse.
 
@@ -168,6 +289,15 @@ def reversenaturalno():
         n=n-1
 # reversenaturalno()
 
+#Output:
+# Enter a number:5
+# 5
+# 4
+# 3
+# 2
+# 1
+# 0
+
 # 10.Generate N numbers of Fibonacci series.
 
 def fibonacci(n,first=0,second=1,count=0):
@@ -177,24 +307,11 @@ def fibonacci(n,first=0,second=1,count=0):
 # n = int(input("Enter a number:"))
 # fibonacci(n)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Output:
+# Enter a number:6
+# 0
+# 1
+# 1
+# 2
+# 3
+# 5
