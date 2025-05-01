@@ -315,3 +315,24 @@ def fibonacci(n,first=0,second=1,count=0):
 # 2
 # 3
 # 5
+
+
+# Calculate sin(x) using Taylor series
+x_deg = float(input("Enter angle in degrees: "))
+x = x_deg * 3.14159 / 180  # Convert to radians
+
+terms = 5  # Number of terms in the series
+sin_x = 0
+sign = 1
+
+for i in range(1,2*terms,2):
+    term = (x**i) / factorial(i)
+    sin_x += sign * term
+    sign *= -1
+
+print("sin(x) =", sin_x)
+
+# Sample Input/Output:
+# Input: 30
+# Output: sin(x) = 0.4999999918690232
+
